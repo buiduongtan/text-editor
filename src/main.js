@@ -2,6 +2,9 @@ import { app, BrowserWindow, Menu, ipcMain } from 'electron';
 import installExtension, { REACT_DEVELOPER_TOOLS } from 'electron-devtools-installer';
 import { enableLiveReload } from 'electron-compile';
 
+// Add auto udpate
+require('update-electron-app')();
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow;
