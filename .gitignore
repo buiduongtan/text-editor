@@ -1,0 +1,11 @@
+node_modules
+out
+.eslintcache
+note
+old_note
+logs
+.compilerc
+.eslintrc.json
+.vscode/
+yarn.lock
+src/_conf
